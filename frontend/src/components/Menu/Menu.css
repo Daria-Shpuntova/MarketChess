@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Bad Script", serif;
+}
+
+.menuLink {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgSvg {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartCount {position: relative}
+
+.imgSvg svg{
+    width: 32px;
+}
+
+.basketCount {
+    color: #ffffff;
+    position: absolute;
+    background: #86009d;
+    background: linear-gradient(90deg, #e776e2 0, #da77d9 58%);
+    padding-inline: 7px;
+    border-radius: 50%;
+    top: -5px;
+    right: 16%;
+}
+
+.basketCount span{z-index: 2}

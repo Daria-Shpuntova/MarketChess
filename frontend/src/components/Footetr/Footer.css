@@ -1,0 +1,33 @@
+.footerBNT{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+.footerBNT btn{
+    text-align: center;
+}
+
+footer{
+    height: 50px;
+    color: #ffffff;
+    font-family: "Bad Script", serif;
+    margin: auto;
+    width: 80%;
+    font-size: larger;
+    text-align: end;
+}
+
+footer a{
+    font-size: xxx-large;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+@media (max-width: 700px) {
+    footer a{font-size: x-large}
+}

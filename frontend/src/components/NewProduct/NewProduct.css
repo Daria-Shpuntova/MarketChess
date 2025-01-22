@@ -1,0 +1,60 @@
+.containerNew{
+    background-image: url("newFont.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    font-family: "Bad Script", serif;
+}
+
+.productsNew{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 37vw;
+    height: 37vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px;
+}
+
+@media (max-width: 700px) {
+    .product {
+        width: 30vw;
+        height: 30vw;
+    }
+}
+
+.productCardHead, .productCardFoot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.product h3{margin: 0}
+.productCardHead p{
+    margin: 0;
+    font-size: xxx-large;
+}
+
+.productCardFoot svg{
+    height: 36px;
+    width: 36px;
+}
+
+.productSvg{
+    display: flex;
+    gap: 10px;
+}
+
+.productCardFoot p{
+    margin: 0;
+}
+.productCardFoot {align-items: center}
+
+.price{font-size: xx-large;}

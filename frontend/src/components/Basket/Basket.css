@@ -1,0 +1,39 @@
+.containerBasket{
+    display: flex;
+    justify-content: space-between;
+}
+.basketItems {
+    width: 70%;
+}
+
+.basketItem tbody {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px #DB00FF;
+    margin-bottom: 10px;
+}
+
+.basketItem td{vertical-align: middle;}
+
+.basketItemImage {
+    width: 20%;
+}
+
+.basketItemImage img{width: 100%}
+
+.basketItemCount{display: flex;}
+
+.btnDelete{
+    height: 40px;
+}
+
+.btnDelete p{
+   font-size: large;
+    padding-inline: 30px;
+}
+
+
+.basketItemCountP{
+    color: red;
+}

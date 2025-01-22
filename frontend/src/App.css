@@ -1,0 +1,53 @@
+body {
+    background: #000;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin-inline: auto;
+}
+
+.neon {
+    text-shadow: 0px 2px 250px #DB00FF, 0px 2px 160px #DB00FF, 0px 2px 80px #DB00FF, 0px 2px 40px #DB00FF, 0px 2px 20px #DB00FF, 0px 2px 10px #DB00FF;
+}
+
+.btn{
+    height: 75px;
+    background: #000000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: fit-content;
+    filter: drop-shadow(0px 0px 30px #DBDAFF);
+    font-family: "Bad Script", serif;
+    text-decoration: none;
+}
+
+.btn p{
+    padding-inline: 57px;
+    font-size: xxx-large;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+h2{
+    font-family: "Bad Script", serif;
+    font-size: xxx-large;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 6vw;
+}
+
+.containerSecond{
+    position: relative;
+    z-index: 1;
+    color: #ffffff;
+    padding: 10vw;
+}
+
+@media (max-width: 500px) {
+    .btn p{font-size: large;}
+    h2 {font-size: x-large}
+}

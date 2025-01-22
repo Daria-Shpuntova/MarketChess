@@ -1,0 +1,28 @@
+.containerGallery{
+    background-image: url("galleryFon.png");
+    background-size: cover;
+    background-position: center;
+    font-family: "Bad Script", serif;
+    z-index: -2;
+}
+
+.allGallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galleryBigOne, .galleryMany{width: 50%}
+
+.galleryBigOne img{width: 100%}
+
+.galleryMany{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galleryMany div{width: 100%}
+.galleryMany div img{width: 50%}
+
+@media (max-width: 700px) {
+    .galleryBigOne, .galleryMany{width: 100%}
+}

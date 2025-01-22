@@ -1,0 +1,23 @@
+h1 {
+    font-size: clamp(2rem, 10vw, 20rem);
+    margin: 0;
+    text-align: center;
+}
+
+.containerHead{
+    background-image: url("h1fon.png");
+    background-size: cover;
+    background-position: center;
+    height: 48vw;
+    color: #ffffff;
+    font-family: "Bad Script", serif;
+    position: relative;
+}
+
+.btnBy, .btnRead {
+    position: absolute;
+    position-area: bottom;
+    bottom: -3%;
+    z-index: 5;
+}
+

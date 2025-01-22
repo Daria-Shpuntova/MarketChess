@@ -1,0 +1,9 @@
+.containerRules{
+    background-image: url("rulseFon.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+    font-family: "Bad Script", serif;
+    color: #ffffff;
+    z-index: -1;
+}

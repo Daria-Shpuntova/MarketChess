@@ -1,0 +1,14 @@
+.historyBegin {
+    background-image: url("historyFon.png");
+    color: #ffffff;
+}
+
+.historyBegin > p{
+    font-family: "Cormorant Infant", serif;
+    font-style: italic;
+    font-size: large;
+}
+
+.btnRead{
+    position: absolute;
+}

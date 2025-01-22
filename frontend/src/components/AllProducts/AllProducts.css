@@ -1,0 +1,42 @@
+.modalActive {
+    position: absolute;
+    width: 30%;
+    top: calc(20%);
+    left: calc(50% - 175px);
+    border-radius: 10px;
+    background-color: #86009d;
+    cursor: default;
+    padding: 40px 20px;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.close {
+    text-align: end;
+    margin: 0;
+}
+
+.close svg{
+    width: 40px;
+    height: 40px;
+}
+.modalActive > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-content .btn p{
+    font-size: larger;
+}
+
+.colorFilter button{
+    background: #DB00FF;
+    border: none;
+    margin: 10px;
+    padding-inline: 15px;
+    border-radius: 10px;
+}
